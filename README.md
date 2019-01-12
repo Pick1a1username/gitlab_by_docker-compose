@@ -1,5 +1,4 @@
-# gitlab_by_docker-compose
-GitLab By Docker Compose
+# GitLab By Docker Compose
 
 
 ## Getting Started
@@ -23,14 +22,15 @@ $ git clone https://github.com/Pick1a1username/gitlab_by_docker-compose.git
 Create Directories required for apps.
 
 ```
-$ cd docker_registry_with_minio
+$ cd gitlab_by_docker-compose
 $ mkdir -p ./gitlab/etc/gitlab ./gitlab/var/log/gitlab ./gitlab/var/opt/gitlab
 ```
 
 
 ### Run the Apps
 
-Run the apps and browse to `http://localhost:8929`
+Run the apps and browse to `http://localhost:8929`.
+(It takes minutes to be completely up)
 
 ```
 $ docker-compose up -d
